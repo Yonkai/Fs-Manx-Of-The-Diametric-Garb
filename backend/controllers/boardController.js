@@ -7,27 +7,27 @@ exports.index = function(req, res) {
 
 //Render white cat board page
 exports.white_cats = function(req, res) {
-    res.render('white_cats');
+    res.render('cats',{catcolor:'White'});
 }
 
 //Render black cat board page
 exports.black_cats = function(req, res) {
-    res.render('black_cats');
+    res.render('cats',{catcolor:'Black'});
 }
 
 //Render grey cat board page
 exports.grey_cats = function(req, res) {
-    res.render('grey_cats');
+    res.render('cats',{catcolor:'Grey'});
 }
 
 //Render orange cat board page
 exports.orange_cats = function(req, res) {
-    res.render('orange_cats');
+    res.render('cats',{catcolor:'Orange'});
 }
 
 //Render tabby cat board page
 exports.tabby_cats = function(req, res) {
-    res.render('tabby_cats');
+    res.render('cats',{catcolor:'Tabby'});
 }
 
 
