@@ -4,9 +4,9 @@ var Schema = mongoose.Schema;
 
 var PostSchema = new Schema(
   {
-    code: {type:  Schema.Types.ObjectId, required: true},
     count: {type:Number, required: true},
-    content: {type: String, required: true},
+    body: {type: String, required: true},
+    date: { type: Date, default: Date.now }
   }
 );
 

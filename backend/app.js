@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var sassMiddleware = require('node-sass-middleware');
-const helmet = require('helmet');
+var helmet = require('helmet');
 
 var indexRouter = require('./routes/index');
 var boardsRouter = require('./routes/boards');
