@@ -10,6 +10,7 @@
     "scss": "sass backend\\public\\stylesheets\\style.scss backend\\public\\stylesheets\\style.css"
   },
   "dependencies": {
+    "@sentry/node": "^4.5.3",
     "cookie-parser": "~1.4.3",
     "create-react-app": "^2.1.3",
     "debug": "~2.6.9",
