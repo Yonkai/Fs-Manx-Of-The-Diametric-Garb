@@ -5,3 +5,4 @@ The purpose of this repository is to help myself better understand and comprehen
  * JavaScript
  * NodeJS
  * Express
+ * Sentry
