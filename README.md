@@ -6,3 +6,7 @@ The purpose of this repository is to help myself better understand and comprehen
  * NodeJS
  * Express
  * Sentry
+ 
+ # License
+ 
+ MIT
