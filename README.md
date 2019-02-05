@@ -7,6 +7,8 @@ The purpose of this repository is to help myself better understand and comprehen
  * Express
  * Sentry 
  * Mongoose/MongoDB
+ * Pug
+ * Sass
  
 # Features (In-progress)
  * Seperate user groups: Regular, Moderator, and Admin
