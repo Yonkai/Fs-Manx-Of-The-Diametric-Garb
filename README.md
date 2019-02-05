@@ -5,8 +5,17 @@ The purpose of this repository is to help myself better understand and comprehen
  * JavaScript
  * NodeJS
  * Express
- * Sentry
+ * Sentry 
+ * Mongoose/MongoDB
  
- # License
+# Features (In-progress)
+ * Seperate user groups: Regular, Moderator, and Admin
+ * Thread creation
+ * Content posting 
+ * Bumping
+ * Stickying
+ * Tripcodes
  
- MIT
+ 
+# License 
+MIT
