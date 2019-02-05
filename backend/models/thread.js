@@ -2,11 +2,12 @@ var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
 
-var PostSchema = new Schema(
+var threadSchema = new Schema(
   {
     count: {type:Number, required: true},
     body: {type: String, required: true},
-    date: { type: Date, default: Date.now }
+    date: {type: Date, default: Date.now},
+    user: {type:String, required:true}
   }
 );
 
