@@ -35,7 +35,8 @@ intend for the database to be a type of buffer only holding a certain amount of 
 normalization won't be such a huge issue, although throughput might be an issue. Make sure to make physical flow diagrams
 to internalize these processes better, better yet, do that for the whole application
 
-4. New tag. Write tests with Jest or whatever else to make sure everything is in working order.
+4. New tag. Write tests with Jest or whatever else to make sure everything is in working order. Too an OWASP Top 10 review
+to hit main common issues.
 
 5. New tag. Make a production version of the application, making changes as needed.
 
