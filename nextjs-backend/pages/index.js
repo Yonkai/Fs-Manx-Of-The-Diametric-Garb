@@ -1,11 +1,10 @@
 // This is the Link API
-import Link from 'next/link'
+import Header from '../components/Header';
 
 const Index = () => (
   <div>
-    <Link href="/subboard">
-      <a>Access boards</a>
-    </Link>
+    <Header/>
+    <p>Home Page</p>
   </div>
 )
 
