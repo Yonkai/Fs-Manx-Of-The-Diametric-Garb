@@ -1,10 +1,9 @@
-import Header from '../components/Header'
+import Layout from '../components/MyLayout.js';
 
 const subboard = () => (
-    <div>
-      <Header/>
-      <p>Sub Board Placeholder</p>
-    </div>
+    <Layout>
+      <p>Sub Board</p>
+    </Layout>
   )
   
   export default subboard
